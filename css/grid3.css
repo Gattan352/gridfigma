@@ -1,0 +1,35 @@
+.structure{
+    display:grid;
+    grid-template-areas:
+    "nav header header"
+    "nav article ads"
+    "nav footer footer";
+    gap: 5px;
+    grid-template-columns: 1fr 5fr 1fr;
+    height: auto;
+    }
+    .header{
+    grid-area:header;
+    background-color: rgb(141, 141, 83);
+    }
+    .navigation{
+    grid-area:nav;
+    background-color: rgb(141, 141, 75);
+    height: auto;
+    }
+    .article{
+    grid-area:article;
+    background-color: rgb(151, 151, 82);
+    height: 500px;
+    }
+    .ads{
+    grid-area:ads;
+    background-color: rgb(148, 148, 69);
+    height: 500px;
+    }
+    .footer{
+    grid-area:footer;
+    background-color: rgb(151, 151, 76);
+    }
+
+    
